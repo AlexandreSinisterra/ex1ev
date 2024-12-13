@@ -46,8 +46,8 @@ int[][] matriz = {
 
 ---
 
-1. En el bucle de la j se podria hacer con una funcion aparte, llamandolo recorrido horizontal del tablero. devolveria el contador
-2. El de la i tambien se podría si llamaramos luego la funcion j, llamandolo recorrido del tablero o vertocal del tablero. devolveria tambien el contador
-3. por ultimo podriamo hacer una nueva funcion llamada ganador que sea la resta de turnos y la impresion por pantalla del ganador. seria un void
+1. En el bucle podriamos hacer una funcion llamada recorrerTableroNegras, donde devolveríamos el contador de las negras
+2. En el mismo bucle haríamos una funcion igual pero con las blancas
+3. por ultimo podriamos hacer una nueva funcion llamada ganador que sea la resta de turnos y la impresion por pantalla del ganador. seria un void
 
 ---
