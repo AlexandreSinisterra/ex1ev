@@ -19,3 +19,18 @@ Con cada apartado realiza un commit diferente
 - si hay una ficha muestra por pantalla donde con `tablero[i][j]` y suma `1` al `contador de las fichas`
 - cuando termina el bucle resta el contador de las blancas al de las negras, por lo tanto si habia `mas blancas` el valor será `negativo`
 - no puse caso de empate, para eso tendriamos que poner anteriormente un `if` con `contador_negra==0`
+
+---
+
+## tablero
+
+int[][] matriz = {
+{1, 0, 1, 0, 1, 0, 1, 0},
+{0, 1, 0, 1, 0, 1, 0, 1},
+{1, 0, 1, 0, 1, 0, 1, 0},
+{0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0},
+{0, 2, 0, 2, 0, 2, 0, 2},
+{2, 0, 2, 0, 2, 0, 2, 0},
+{0, 2, 0, 2, 0, 2, 0, 2},
+};
