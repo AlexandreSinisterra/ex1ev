@@ -45,9 +45,40 @@ int[][] matriz = {
 };
 
 ---
+## 3 funciones
 
 1. En el bucle podriamos hacer una funcion llamada recorrerTableroNegras, donde devolveríamos el contador de las negras
 2. En el mismo bucle haríamos una funcion igual pero con las blancas
 3. por ultimo podriamos hacer una nueva funcion llamada ganador que sea la resta de turnos y la impresion por pantalla del ganador. seria un void
 
 ---
+## Javadoc
+
+/**
+1.
+* contaría la cantidad de fichas negras
+* @param negras seria el contador de las fichas negras
+* @param tablero es nuestro tablero para que lo vaya recorriendo
+* @return devuelve la cantidad de fichas negras
+  */
+
+    public static int recorrerTableroNegras(int negras, int[][] tablero){}
+  /**
+2.
+* es lo mismo que el de arriba pero con fichas blancas
+* @param negras seria el contador de las fichas blancas
+* @param tablero es nuestro tablero para que lo vaya recorriendo
+* @return devuelve la cantidad de fichas blancas
+  */
+
+    public static int recorrerTableroBlancas(int blancas, int[][] tablero){}
+/**
+3.
+* le damos estos 2 valores para que los compare y segun cual de ellos es mayor nos diga el ganador
+* @param negras la cantidad de fichas negras
+* @param blancas la cantidad de fichas blancas
+  */
+
+  public static void ganador(int negras, int blancas){}
+
+>tuve que cambiar el programa a algo parecido ya que el mio tendría que **devolver varios valores o no se veian bien como se podrían meter 3 funciones**, así que lo que cambiaría de mi programa es **que haga 2 veces el bucle**, uno con las fichas negras y otro con las blancas con su respectivo contador, asi ya hice `2` funciones, la ultima sería la que nos dice quien gana con los parametros de los `2 `contadores comparándolos y viendo cual es el mayor. Si queremos que la ultima funcion nos devuelva un `valor` lo que tendriamos que hacer es al principio de todo crear una `variable` nueva llamada `ganador` y que entre tambien aqui como `parámetro` y sea lo que nos devuelva, segun el valor devuelto, `1` para las blancas y `2` para las negras, a partir de eso en el main con un `if else` pondremos el ganador.
